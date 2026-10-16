@@ -3,3 +3,4 @@ requests
 gunicorn
 pycryptodome
 urllib3
+Flask-Cors
