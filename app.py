@@ -44,7 +44,7 @@ SPAM_THREAD_DELAY = float(os.environ.get("SPAM_THREAD_DELAY", "0.05"))
 JWT_MIN_VALID_SECONDS = 300
 
 # Giới hạn để không vượt timeout Vercel (Hobby ~10s, Pro ~60s)
-MAX_UIDS_PER_REQUEST = int(os.environ.get("MAX_UIDS_PER_REQUEST", "50"))
+MAX_UIDS_PER_REQUEST = int(os.environ.get("MAX_UIDS_PER_REQUEST", "210"))
 REQUEST_BUDGET_SEC = float(os.environ.get("REQUEST_BUDGET_SEC", "8"))
 
 # ============================================================
